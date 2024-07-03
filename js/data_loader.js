@@ -1,10 +1,8 @@
-const researchDataJSON = JSON.parse(researchData);
-
 const carousel = document.getElementById("carouselInner");
 const indicators = document.getElementById("carouselIndicators");
 var counter = 0;
 
-researchDataJSON.forEach(element => {
+researchData.forEach(element => {
     const button = document.createElement("button");
     button.setAttribute("type", "button");
     button.setAttribute("data-bs-target", "#carouselExampleCaptions");
@@ -69,7 +67,7 @@ const addressHeaderText = document.createTextNode("Address");
 addressHeader.appendChild(addressHeaderText);
 
 const address = document.createElement("p");
-const addressText = document.createTextNode(personalData["Address"]);
+const addressText = document.createTextNode(personalData.Address);
 address.appendChild(addressText);
 
 personal.append(addressHeader);
@@ -80,7 +78,7 @@ const emailHeaderText = document.createTextNode("Email Address");
 emailHeader.appendChild(emailHeaderText);
 
 const emailAddressUl = document.createElement("ul");
-personalData["Email"].forEach(email => {
+personalData.Email.forEach(email => {
     const li = document.createElement("li");
     const text = document.createTextNode(email);
     li.appendChild(text);
@@ -96,7 +94,7 @@ const phoneHeaderText = document.createTextNode("Phone");
 phoneHeader.appendChild(phoneHeaderText)
 
 const phoneUl = document.createElement("ul");
-personalData["Phone"].forEach(phone => {
+personalData.Phone.forEach(phone => {
     const li = document.createElement("li");
     const text = document.createTextNode(phone);
     li.appendChild(text);
@@ -112,7 +110,7 @@ const faxHeaderText = document.createTextNode("Fax");
 faxHeader.appendChild(faxHeaderText);
 
 const faxUl = document.createElement("ul");
-personalData["Fax"].forEach(fax => {
+personalData.Fax.forEach(fax => {
     const li = document.createElement("li");
     const text = document.createTextNode(fax);
     li.appendChild(text);
