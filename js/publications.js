@@ -9,6 +9,7 @@ publicationData.forEach(publication => {
     
     const imgDiv = document.createElement("div");
     imgDiv.classList.add("col-md-4");
+    imgDiv.classList.add("col-spacing")
     const img = document.createElement("img");
     img.src = publication.img;
     img.classList.add("d-block");
@@ -17,6 +18,7 @@ publicationData.forEach(publication => {
     
     const dataDiv = document.createElement("div");
     dataDiv.classList.add("col-md-8");
+    dataDiv.classList.add("col-spacing");
     const h5 = document.createElement("h5");
     const h5Text = document.createTextNode(publication.title);
     h5.appendChild(h5Text);

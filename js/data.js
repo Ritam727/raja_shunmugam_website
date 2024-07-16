@@ -48,3 +48,16 @@ publicationData = [
     {"title" : "Title 4", "people" : ["Person 2", "Person 3", "Person 5"], "img" : "images/400_400.png", "publisher" : "Publisher 4", "link" : "Download Link 4", "year" : "Year 4"},
     {"title" : "Title 5", "people" : ["Person 1", "Person 2", "Person 3", "Person 4"], "img" : "images/400_400.png", "publisher" : "Publisher 5", "link" : "Download Link 5", "year" : "Year 5"},
 ]
+
+peopleData = [
+    {"name" : "Student Name1", "image" : "images/200_200.png", "course" : "Current course1", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name2", "image" : "images/200_200.png", "course" : "Current course2", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name3", "image" : "images/200_200.png", "course" : "Current course3", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name4", "image" : "images/200_200.png", "course" : "Current course4", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name5", "image" : "images/200_200.png", "course" : "Current course5", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name6", "image" : "images/200_200.png", "course" : "Current course6", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name7", "image" : "images/200_200.png", "course" : "Current course7", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name8", "image" : "images/200_200.png", "course" : "Current course8", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name9", "image" : "images/200_200.png", "course" : "Current course9", "info" : "Information about where the students studied previously. Current topic in which student is working."},
+    {"name" : "Student Name10", "image" : "images/200_200.png", "course" : "Current course10", "info" : "Information about where the students studied previously. Current topic in which student is working."}
+]
